@@ -1,1 +1,39 @@
-/*Personal Web Page Style Sheet */
+body {
+    background-color: burlywood;
+    color:black;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+a:link {background-color:crimson;}
+a:hover {background-color: cornflowerblue;}
+a:visited {background-color: blue;}
+
+
+h1, h2, h3 {
+    font-family: fantasy;
+    color: black;
+    
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+
+img {
+    border-style: none;
+}
+
+ul {
+    font-family: cursive;
+    color: brown;
+}
